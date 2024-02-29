@@ -6,6 +6,10 @@ use Symfony\Component\Uid\Uuid;
 
 class OrderMessage
 {
+    public const ORDER_PROCESSING = 'Processing';
+    public const ORDER_PROCESSED = 'Processed';
+    public const ORDER_FAILED = 'Failed';
+
     private ?Uuid $orderId = null;
     private ?Uuid $productId = null;
     private ?int $quantity = null;
