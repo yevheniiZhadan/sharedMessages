@@ -28,7 +28,7 @@ class CompleteOrderMessage
         return $this->status;
     }
 
-    public function setStatus(int $status): static
+    public function setStatus(string $status): static
     {
         $this->status = $status;
 
