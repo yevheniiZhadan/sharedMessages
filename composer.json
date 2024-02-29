@@ -1,0 +1,19 @@
+{
+  "name": "yevhenii-zhadan/shared-messages",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "SharedMessages\\": "src/"
+    }
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Yevhenii Yevhenii",
+      "email": "zhadan1991@gmail.com"
+    }
+  ],
+  "require": {
+    "symfony/uid": "^6.4"
+  }
+}
