@@ -14,7 +14,6 @@
     }
   ],
   "require": {
-    "symfony/uid": "^6.4",
-    "symfony/serializer": "^6.4"
+    "symfony/uid": "^6.4"
   }
 }
